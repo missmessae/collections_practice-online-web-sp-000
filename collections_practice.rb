@@ -31,3 +31,8 @@ def kesha_maker(array)
   end
   return array_words
 end
+
+def find_a(array)
+  array.select {|item| item.starts_with?("a")}
+  
+end
